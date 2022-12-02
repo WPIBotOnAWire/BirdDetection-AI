@@ -1,3 +1,19 @@
 0 Cormorant
-1 Osprey
-2 Raven
+1 Raven and Crow
+2 Osprey
+3 Robin
+4 Wood Pecker
+5 American Goldfinch
+6 House Sparrow
+7 House Finch
+8 Nuthatch
+9 Red-winged Blackbird
+10 Starling
+11 Mourning Dove
+12 Northern Cardinal
+13 Black-capped Chickadee
+14 Common Grackle
+15 Titmouse
+16 Eastern Bluebird
+17 Ruby-throated Hummingbird
+18 Baltimore Oriole
