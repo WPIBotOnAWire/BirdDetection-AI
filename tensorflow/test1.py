@@ -23,7 +23,7 @@ with open(labels_filename, 'rt') as lf:
 
 # Load from a file
 execution_path = os.getcwd()
-imageFile = os.path.join(execution_path , "testpic.jpg")
+imageFile = os.path.join(execution_path , "firefinch.jpg")
 image = Image.open(imageFile)
 
 def convert_to_opencv(image):
