@@ -21,7 +21,7 @@ def show_webcam(mirror=False):
             2, 
             cv2.LINE_4)
         cv2.imshow('webcam feed', img)
-        if cv2.waitKey(50) == 27: 
+        if cv2.waitKey(1000) == 27: 
             break  # esc to quit
     cv2.destroyAllWindows()
 
@@ -147,7 +147,8 @@ def check_image(image):
         label_index = 0
         for p in predictions:
             truncated_probablity = np.float64(np.round(p,8))
-            print ("Prediction %: " + labels[label_index], truncated_probablity)
+            #print ("Prediction %: " + labels[label_index], truncated_probablity)
+            print("Prediction: " + str(truncated_probablity[1]) + " raven.")
             label_index += 1  
     return labels[highest_probability_index]
 
